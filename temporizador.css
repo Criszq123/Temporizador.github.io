@@ -1,0 +1,43 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contenedor-temporizador {
+    display: flex;
+    align-items: center;
+    background-color: yellow;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contenedor {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+#contenedor img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.bloque {
+    text-align: center;
+}
+
+.bloque div {
+    font-size: 10em;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.bloque p {
+    margin: 0;
+    color: #495057;
+}

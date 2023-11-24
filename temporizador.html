@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuenta regresiva (Temporizador)</title>
+    <link rel="stylesheet" href="temporizador.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="contenedor-temporizador">
+        <div id="contenedor">
+            <img src="https://static.vecteezy.com/system/resources/previews/005/411/987/original/alarm-clock-illustration-analog-timer-retro-item-flat-cartoon-style-suitable-for-web-landing-page-banner-flyer-sticker-card-background-free-vector.jpg" alt="">
+        </div>
+        <div class="d-flex align-items-center">
+            <div class="bloque">
+                <div class="horas" id="horas">--</div>
+                <p>HORAS</p>
+            </div>
+            <div class="bloque">:</div>
+            <div class="bloque">
+                <div class="minutos" id="minutos">--</div>
+                <p>MINUTOS</p>
+            </div>
+            <div class="bloque">:</div>
+            <div class="bloque">
+                <div class="segundos" id="segundos">--</div>
+                <p>SEGUNDOS</p>
+            </div>
+            
+
+            <div class="ms-3">
+                <label for="defSegundos">Segundos</label><input type="number" name="Segundos" id="defSegundos" class="form-control">
+                <label for="defMinutos">Minutos</label><input type="number" name="Minutos" id="defMinutos" class="form-control">
+                <label for="defHoras">Horas</label><input type="number" name="Horas" id="defHoras" class="form-control">
+                <br>
+                <br>
+                <button class="btn btn-primary" id="iniciarTemporizador">INICIAR TEMPORIZADOR</button>
+                <button class="btn btn-secondary" id="pausarTemporizador">PAUSAR TEMPORIZADOR</button>
+                <a href="temporizador.html" class="btn btn-danger">REINICIAR TEMPORIZADOR</a>
+                
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="temporizador.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
