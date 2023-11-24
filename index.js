@@ -58,7 +58,7 @@ function cargarHoras(segundos, minutos) {
         }, 500);
     } else if (segundos == -1 && minutos == 0 && horas == 0) {
         clearInterval(temporizadorId);
-        alert('EL CRONOMETRO HA FINALIZADO');
+        alert('EL TEMPORIZADOR HA FINALIZADO');
     }
 
     // mostrar horas en pantalla
